@@ -31,3 +31,5 @@ The graphs that will be rendered will utilize API calls. There will be points to
 #### Day 6-7
 * Style the page, and write background information
 ---
+
+![Alt text](wireFrame.png "Wireframe")
