@@ -1,0 +1,582 @@
+[
+  {
+    "DATE": "1991-10-01",
+    "SFTPINDM114SFRBSF": 25.83407
+  },
+  {
+    "DATE": "1991-11-01",
+    "SFTPINDM114SFRBSF": 26.00828
+  },
+  {
+    "DATE": "1991-12-01",
+    "SFTPINDM114SFRBSF": 26.26419
+  },
+  {
+    "DATE": "1992-01-01",
+    "SFTPINDM114SFRBSF": 26.66333
+  },
+  {
+    "DATE": "1992-02-01",
+    "SFTPINDM114SFRBSF": 27.18008
+  },
+  {
+    "DATE": "1992-03-01",
+    "SFTPINDM114SFRBSF": 27.79751
+  },
+  {
+    "DATE": "1992-04-01",
+    "SFTPINDM114SFRBSF": 28.45387
+  },
+  {
+    "DATE": "1992-05-01",
+    "SFTPINDM114SFRBSF": 29.05732
+  },
+  {
+    "DATE": "1992-06-01",
+    "SFTPINDM114SFRBSF": 29.54679
+  },
+  {
+    "DATE": "1992-07-01",
+    "SFTPINDM114SFRBSF": 29.89017
+  },
+  {
+    "DATE": "1992-08-01",
+    "SFTPINDM114SFRBSF": 30.11871
+  },
+  {
+    "DATE": "1992-09-01",
+    "SFTPINDM114SFRBSF": 30.36165
+  },
+  {
+    "DATE": "1992-10-01",
+    "SFTPINDM114SFRBSF": 30.64271
+  },
+  {
+    "DATE": "1992-11-01",
+    "SFTPINDM114SFRBSF": 30.87771
+  },
+  {
+    "DATE": "1992-12-01",
+    "SFTPINDM114SFRBSF": 30.99696
+  },
+  {
+    "DATE": "1993-01-01",
+    "SFTPINDM114SFRBSF": 31.04871
+  },
+  {
+    "DATE": "1993-02-01",
+    "SFTPINDM114SFRBSF": 31.12126
+  },
+  {
+    "DATE": "1993-03-01",
+    "SFTPINDM114SFRBSF": 31.24494
+  },
+  {
+    "DATE": "1993-04-01",
+    "SFTPINDM114SFRBSF": 31.44562
+  },
+  {
+    "DATE": "1993-05-01",
+    "SFTPINDM114SFRBSF": 31.73774
+  },
+  {
+    "DATE": "1993-06-01",
+    "SFTPINDM114SFRBSF": 32.07474
+  },
+  {
+    "DATE": "1993-07-01",
+    "SFTPINDM114SFRBSF": 32.40161
+  },
+  {
+    "DATE": "1993-08-01",
+    "SFTPINDM114SFRBSF": 32.76693
+  },
+  {
+    "DATE": "1993-09-01",
+    "SFTPINDM114SFRBSF": 33.22465
+  },
+  {
+    "DATE": "1993-10-01",
+    "SFTPINDM114SFRBSF": 33.75178
+  },
+  {
+    "DATE": "1993-11-01",
+    "SFTPINDM114SFRBSF": 34.27846
+  },
+  {
+    "DATE": "1993-12-01",
+    "SFTPINDM114SFRBSF": 34.74869
+  },
+  {
+    "DATE": "1994-01-01",
+    "SFTPINDM114SFRBSF": 35.20292
+  },
+  {
+    "DATE": "1994-02-01",
+    "SFTPINDM114SFRBSF": 35.77114
+  },
+  {
+    "DATE": "1994-03-01",
+    "SFTPINDM114SFRBSF": 36.56873
+  },
+  {
+    "DATE": "1994-04-01",
+    "SFTPINDM114SFRBSF": 37.47428
+  },
+  {
+    "DATE": "1994-05-01",
+    "SFTPINDM114SFRBSF": 38.23406
+  },
+  {
+    "DATE": "1994-06-01",
+    "SFTPINDM114SFRBSF": 38.80086
+  },
+  {
+    "DATE": "1994-07-01",
+    "SFTPINDM114SFRBSF": 39.34898
+  },
+  {
+    "DATE": "1994-08-01",
+    "SFTPINDM114SFRBSF": 40.05962
+  },
+  {
+    "DATE": "1994-09-01",
+    "SFTPINDM114SFRBSF": 41.02054
+  },
+  {
+    "DATE": "1994-10-01",
+    "SFTPINDM114SFRBSF": 42.19344
+  },
+  {
+    "DATE": "1994-11-01",
+    "SFTPINDM114SFRBSF": 43.37839
+  },
+  {
+    "DATE": "1994-12-01",
+    "SFTPINDM114SFRBSF": 44.36081
+  },
+  {
+    "DATE": "1995-01-01",
+    "SFTPINDM114SFRBSF": 45.1808
+  },
+  {
+    "DATE": "1995-02-01",
+    "SFTPINDM114SFRBSF": 46.14708
+  },
+  {
+    "DATE": "1995-03-01",
+    "SFTPINDM114SFRBSF": 47.44679
+  },
+  {
+    "DATE": "1995-04-01",
+    "SFTPINDM114SFRBSF": 48.84483
+  },
+  {
+    "DATE": "1995-05-01",
+    "SFTPINDM114SFRBSF": 49.95151
+  },
+  {
+    "DATE": "1995-06-01",
+    "SFTPINDM114SFRBSF": 50.60482
+  },
+  {
+    "DATE": "1995-07-01",
+    "SFTPINDM114SFRBSF": 51.14729
+  },
+  {
+    "DATE": "1995-08-01",
+    "SFTPINDM114SFRBSF": 52.08897
+  },
+  {
+    "DATE": "1995-09-01",
+    "SFTPINDM114SFRBSF": 53.34696
+  },
+  {
+    "DATE": "1995-10-01",
+    "SFTPINDM114SFRBSF": 54.45435
+  },
+  {
+    "DATE": "1995-11-01",
+    "SFTPINDM114SFRBSF": 55.16528
+  },
+  {
+    "DATE": "1995-12-01",
+    "SFTPINDM114SFRBSF": 55.64452
+  },
+  {
+    "DATE": "1996-01-01",
+    "SFTPINDM114SFRBSF": 56.15119
+  },
+  {
+    "DATE": "1996-02-01",
+    "SFTPINDM114SFRBSF": 56.83693
+  },
+  {
+    "DATE": "1996-03-01",
+    "SFTPINDM114SFRBSF": 57.51292
+  },
+  {
+    "DATE": "1996-04-01",
+    "SFTPINDM114SFRBSF": 58.03463
+  },
+  {
+    "DATE": "1996-05-01",
+    "SFTPINDM114SFRBSF": 58.503
+  },
+  {
+    "DATE": "1996-06-01",
+    "SFTPINDM114SFRBSF": 59.04364
+  },
+  {
+    "DATE": "1996-07-01",
+    "SFTPINDM114SFRBSF": 59.73335
+  },
+  {
+    "DATE": "1996-08-01",
+    "SFTPINDM114SFRBSF": 60.57164
+  },
+  {
+    "DATE": "1996-09-01",
+    "SFTPINDM114SFRBSF": 61.49262
+  },
+  {
+    "DATE": "1996-10-01",
+    "SFTPINDM114SFRBSF": 62.37034
+  },
+  {
+    "DATE": "1996-11-01",
+    "SFTPINDM114SFRBSF": 63.04875
+  },
+  {
+    "DATE": "1996-12-01",
+    "SFTPINDM114SFRBSF": 63.65603
+  },
+  {
+    "DATE": "1997-01-01",
+    "SFTPINDM114SFRBSF": 64.59824
+  },
+  {
+    "DATE": "1997-02-01",
+    "SFTPINDM114SFRBSF": 66.12317
+  },
+  {
+    "DATE": "1997-03-01",
+    "SFTPINDM114SFRBSF": 67.86005
+  },
+  {
+    "DATE": "1997-04-01",
+    "SFTPINDM114SFRBSF": 69.4256
+  },
+  {
+    "DATE": "1997-05-01",
+    "SFTPINDM114SFRBSF": 70.88294
+  },
+  {
+    "DATE": "1997-06-01",
+    "SFTPINDM114SFRBSF": 72.4376
+  },
+  {
+    "DATE": "1997-07-01",
+    "SFTPINDM114SFRBSF": 74.04068
+  },
+  {
+    "DATE": "1997-08-01",
+    "SFTPINDM114SFRBSF": 75.33453
+  },
+  {
+    "DATE": "1997-09-01",
+    "SFTPINDM114SFRBSF": 75.93704
+  },
+  {
+    "DATE": "1997-10-01",
+    "SFTPINDM114SFRBSF": 75.9888
+  },
+  {
+    "DATE": "1997-11-01",
+    "SFTPINDM114SFRBSF": 76.05183
+  },
+  {
+    "DATE": "1997-12-01",
+    "SFTPINDM114SFRBSF": 76.4818
+  },
+  {
+    "DATE": "1998-01-01",
+    "SFTPINDM114SFRBSF": 77.14956
+  },
+  {
+    "DATE": "1998-02-01",
+    "SFTPINDM114SFRBSF": 77.71669
+  },
+  {
+    "DATE": "1998-03-01",
+    "SFTPINDM114SFRBSF": 77.95938
+  },
+  {
+    "DATE": "1998-04-01",
+    "SFTPINDM114SFRBSF": 77.96083
+  },
+  {
+    "DATE": "1998-05-01",
+    "SFTPINDM114SFRBSF": 77.86581
+  },
+  {
+    "DATE": "1998-06-01",
+    "SFTPINDM114SFRBSF": 77.92143
+  },
+  {
+    "DATE": "1998-07-01",
+    "SFTPINDM114SFRBSF": 78.24308
+  },
+  {
+    "DATE": "1998-08-01",
+    "SFTPINDM114SFRBSF": 78.97863
+  },
+  {
+    "DATE": "1998-09-01",
+    "SFTPINDM114SFRBSF": 80.13694
+  },
+  {
+    "DATE": "1998-10-01",
+    "SFTPINDM114SFRBSF": 81.46466
+  },
+  {
+    "DATE": "1998-11-01",
+    "SFTPINDM114SFRBSF": 82.79566
+  },
+  {
+    "DATE": "1998-12-01",
+    "SFTPINDM114SFRBSF": 84.17937
+  },
+  {
+    "DATE": "1999-01-01",
+    "SFTPINDM114SFRBSF": 85.70057
+  },
+  {
+    "DATE": "1999-02-01",
+    "SFTPINDM114SFRBSF": 87.3658
+  },
+  {
+    "DATE": "1999-03-01",
+    "SFTPINDM114SFRBSF": 89.144
+  },
+  {
+    "DATE": "1999-04-01",
+    "SFTPINDM114SFRBSF": 91.10378
+  },
+  {
+    "DATE": "1999-05-01",
+    "SFTPINDM114SFRBSF": 93.12887
+  },
+  {
+    "DATE": "1999-06-01",
+    "SFTPINDM114SFRBSF": 94.94927
+  },
+  {
+    "DATE": "1999-07-01",
+    "SFTPINDM114SFRBSF": 96.00819
+  },
+  {
+    "DATE": "1999-08-01",
+    "SFTPINDM114SFRBSF": 95.92734
+  },
+  {
+    "DATE": "1999-09-01",
+    "SFTPINDM114SFRBSF": 95.31282
+  },
+  {
+    "DATE": "1999-10-01",
+    "SFTPINDM114SFRBSF": 95.06213
+  },
+  {
+    "DATE": "1999-11-01",
+    "SFTPINDM114SFRBSF": 95.70452
+  },
+  {
+    "DATE": "1999-12-01",
+    "SFTPINDM114SFRBSF": 97.38107
+  },
+  {
+    "DATE": "2000-01-01",
+    "SFTPINDM114SFRBSF": 100
+  },
+  {
+    "DATE": "2000-02-01",
+    "SFTPINDM114SFRBSF": 103.14446
+  },
+  {
+    "DATE": "2000-03-01",
+    "SFTPINDM114SFRBSF": 106.46443
+  },
+  {
+    "DATE": "2000-04-01",
+    "SFTPINDM114SFRBSF": 109.62377
+  },
+  {
+    "DATE": "2000-05-01",
+    "SFTPINDM114SFRBSF": 112.2613
+  },
+  {
+    "DATE": "2000-06-01",
+    "SFTPINDM114SFRBSF": 114.16141
+  },
+  {
+    "DATE": "2000-07-01",
+    "SFTPINDM114SFRBSF": 115.49849
+  },
+  {
+    "DATE": "2000-08-01",
+    "SFTPINDM114SFRBSF": 116.47368
+  },
+  {
+    "DATE": "2000-09-01",
+    "SFTPINDM114SFRBSF": 117.34768
+  },
+  {
+    "DATE": "2000-10-01",
+    "SFTPINDM114SFRBSF": 117.85393
+  },
+  {
+    "DATE": "2000-11-01",
+    "SFTPINDM114SFRBSF": 117.75335
+  },
+  {
+    "DATE": "2000-12-01",
+    "SFTPINDM114SFRBSF": 116.57772
+  },
+  {
+    "DATE": "2001-01-01",
+    "SFTPINDM114SFRBSF": 113.7428
+  },
+  {
+    "DATE": "2001-02-01",
+    "SFTPINDM114SFRBSF": 109.33059
+  },
+  {
+    "DATE": "2001-03-01",
+    "SFTPINDM114SFRBSF": 103.89653
+  },
+  {
+    "DATE": "2001-04-01",
+    "SFTPINDM114SFRBSF": 98.21
+  },
+  {
+    "DATE": "2001-05-01",
+    "SFTPINDM114SFRBSF": 93.07368
+  },
+  {
+    "DATE": "2001-06-01",
+    "SFTPINDM114SFRBSF": 88.60307
+  },
+  {
+    "DATE": "2001-07-01",
+    "SFTPINDM114SFRBSF": 84.71163
+  },
+  {
+    "DATE": "2001-08-01",
+    "SFTPINDM114SFRBSF": 81.68975
+  },
+  {
+    "DATE": "2001-09-01",
+    "SFTPINDM114SFRBSF": 79.62423
+  },
+  {
+    "DATE": "2001-10-01",
+    "SFTPINDM114SFRBSF": 78.13858
+  },
+  {
+    "DATE": "2001-11-01",
+    "SFTPINDM114SFRBSF": 76.77591
+  },
+  {
+    "DATE": "2001-12-01",
+    "SFTPINDM114SFRBSF": 75.36897
+  },
+  {
+    "DATE": "2002-01-01",
+    "SFTPINDM114SFRBSF": 73.90755
+  },
+  {
+    "DATE": "2002-02-01",
+    "SFTPINDM114SFRBSF": 72.68574
+  },
+  {
+    "DATE": "2002-03-01",
+    "SFTPINDM114SFRBSF": 71.61074
+  },
+  {
+    "DATE": "2002-04-01",
+    "SFTPINDM114SFRBSF": 70.47398
+  },
+  {
+    "DATE": "2002-05-01",
+    "SFTPINDM114SFRBSF": 69.28122
+  },
+  {
+    "DATE": "2002-06-01",
+    "SFTPINDM114SFRBSF": 68.16737
+  },
+  {
+    "DATE": "2002-07-01",
+    "SFTPINDM114SFRBSF": 67.14443
+  },
+  {
+    "DATE": "2002-08-01",
+    "SFTPINDM114SFRBSF": 66.07757
+  },
+  {
+    "DATE": "2002-09-01",
+    "SFTPINDM114SFRBSF": 64.87412
+  },
+  {
+    "DATE": "2002-10-01",
+    "SFTPINDM114SFRBSF": 63.65779
+  },
+  {
+    "DATE": "2002-11-01",
+    "SFTPINDM114SFRBSF": 62.66183
+  },
+  {
+    "DATE": "2002-12-01",
+    "SFTPINDM114SFRBSF": 62.05354
+  },
+  {
+    "DATE": "2003-01-01",
+    "SFTPINDM114SFRBSF": 62.01213
+  },
+  {
+    "DATE": "2003-02-01",
+    "SFTPINDM114SFRBSF": 62.39459
+  },
+  {
+    "DATE": "2003-03-01",
+    "SFTPINDM114SFRBSF": 62.88616
+  },
+  {
+    "DATE": "2003-04-01",
+    "SFTPINDM114SFRBSF": 63.45433
+  },
+  {
+    "DATE": "2003-05-01",
+    "SFTPINDM114SFRBSF": 64.21997
+  },
+  {
+    "DATE": "2003-06-01",
+    "SFTPINDM114SFRBSF": 65.21078
+  },
+  {
+    "DATE": "2003-07-01",
+    "SFTPINDM114SFRBSF": 66.33039
+  },
+  {
+    "DATE": "2003-08-01",
+    "SFTPINDM114SFRBSF": 67.53472
+  },
+  {
+    "DATE": "2003-09-01",
+    "SFTPINDM114SFRBSF": 68.82585
+  },
+  {
+    "DATE": "2003-10-01",
+    "SFTPINDM114SFRBSF": 69.9858
+  }
+]

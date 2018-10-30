@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<head>
+    <style>
+        .bar {
+            fill: steelblue;
+        }
+
+        .bar:hover {
+            fill: brown;
+        }
+
+        .axis {
+            font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <svg width='200' height='500'></svg>
+    <script>
+        debugger;
+        d3.json("./data/SFInvestments96_04.json", function (data) {
+                console.log(data);
+            });
+        debugger;
+        let data = [80, 120, 60, 150, 200];
+        let barHeight = 20;
+        let bar = d3.select('svg')
+            .selectAll('rect')
+            .data(data)
+            .enter()
+            .append('rect')
+            .attr('width', function (d) { return d; })
+            .attr('height', barHeight - 1)
+            .attr('transform', function (d, i) {
+                return "translate(0," + i * barHeight + ")";
+            });
+
+    </script>
+
+</body>
