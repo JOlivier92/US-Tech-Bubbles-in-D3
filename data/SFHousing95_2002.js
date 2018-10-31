@@ -1,4 +1,4 @@
-[
+const sf_housing = [
   {
     "DATE": "1995-06-01",
     "SFXRHTNSA": 66.51643100000001

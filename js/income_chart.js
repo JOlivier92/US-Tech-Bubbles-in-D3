@@ -7,7 +7,7 @@ const incomeChart = () => {
     };
     let width = 800 - margin.left - margin.right;
     let height = 600 - margin.top - margin.bottom;
-
+    console.log("asdasd")
     let svg = d3.select("#income-area")
         .append("svg")
         .attr("width", width + margin.left + margin.right)

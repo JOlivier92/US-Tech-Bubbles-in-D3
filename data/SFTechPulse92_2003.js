@@ -1,4 +1,4 @@
-[
+const sf_tech_pulse = [
   {
     "DATE": "1991-10-01",
     "SFTPINDM114SFRBSF": 25.83407

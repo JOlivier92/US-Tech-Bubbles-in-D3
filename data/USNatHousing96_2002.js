@@ -1,4 +1,4 @@
-[
+const data_us_nat_housing = [
   {
     "DATE": "1996-03-01",
     "CSUSHPINSA": 81.688

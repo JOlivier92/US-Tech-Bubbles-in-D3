@@ -1,4 +1,4 @@
-[
+const san_mateo_income = [
   {
     "DATE": "1995-01-01",
     "PCPI06081": 36369

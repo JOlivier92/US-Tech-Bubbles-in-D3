@@ -1,4 +1,4 @@
-[
+const nasdaq_weekly = [
   {
     "DATE": "1996-10-04",
     "NASDAQCOM": 1233.038
