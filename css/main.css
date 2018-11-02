@@ -77,10 +77,13 @@
   margin: 0 auto;
 }
 
+.area {
+    fill: lightsteelblue;
+    stroke-width: 0;
+}
 .row .quote-div {
   width: 75%;
   margin: 0 auto;
-  height: 500px;
   vertical-align: middle;
 }
 
