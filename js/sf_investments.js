@@ -1,28 +1,27 @@
-const nasdaqChart = () => {
-    console.log("Hi")
+const SFInvestments = () => {
     let width = 600;
     let height = 500;
     let padding = 45;
     let dataset = [];
-    Object.keys(nasdaq_weekly).map(key => {
-      let dateArr = nasdaq_weekly[key].DATE.split("-");
-      let date = Number(dateArr[0]) + (1 / 12) * Number(dateArr[2] / 30) + Number(dateArr[1] / 12);
-      dataset.push([date, nasdaq_weekly[key].NASDAQCOM]);
+    Object.keys(sf_investments).map(key => {
+        let dateArr = sf_investments[key].DATE.split("-");
+        let date = Number(dateArr[0]) + (1 / 12) * Number(dateArr[2] / 30) + Number(dateArr[1] / 12);
+        dataset.push([date, sf_investments[key].SMU06418845552300001]);
     });
 
 
     //scale function
     let xScale = d3.scaleLinear()
         //.domain(["Alabama","Alaska","Arizona","Arkansas","California"])
-        .domain([1996.7, 2003])
+        .domain([1995, 2005])
         //.range([padding, w-padding * 2]);
         .range([padding, width - padding * 2]);
 
     let yScale = d3.scaleLinear()
-        .domain([1100, d3.max(dataset, function (d) { return d[1]; })])
+        .domain([10, d3.max(dataset, function (d) { return d[1]; })])
         //.range([padding, w-padding * 2]);
         .range([height - padding, padding]);
-    
+
 
     let xAxis = d3
         .axisBottom()
@@ -34,7 +33,7 @@ const nasdaqChart = () => {
 
 
     //create svg element
-    let svg = d3.select("#nasdaq-area")
+    let svg = d3.select("#investment-area")
         .append("svg")
         .attr("width", width)
         .attr("height", height);
@@ -51,7 +50,7 @@ const nasdaqChart = () => {
         })
         .attr("r", 2)
         .attr("fill", "#FFFFF");
-    
+
     //x axis
     svg.append("g")
         .attr("class", "x axis")
@@ -63,7 +62,7 @@ const nasdaqChart = () => {
         .attr("class", "y axis")
         .attr("transform", "translate(" + padding + ", 0)")
         .call(yAxis);
-    
+
 
 
     svg.append("text")
@@ -90,15 +89,10 @@ const nasdaqChart = () => {
         .text("Year")
 
     console.log(dataset);
-    
+
     const area = d3.area()
         .x(function (dataset) { return x(dataset.DATE); })
         .y0(height)
-        .y1(function (dataset) { return y(dataset.NASDAQCOM); });
-    console.log(area);
-
+        .y1(function (dataset) { return y(dataset.SMU06418845552300001); });
 };
-nasdaqChart();
-
-
-
+SFInvestments();
