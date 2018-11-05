@@ -39,52 +39,47 @@ const nasdaqChart = () => {
         .attr("width", width)
         .attr("height", height);
 
-    svg.selectAll("circle")
-        .data(dataset)
-        .enter()
-        .append("circle")
-        .attr("cx", function (d) {
-            return xScale(d[0]);
-        })
-        .attr("cy", function (d) {
-            return yScale(d[1]);
-        })
-        .attr("r", 2)
-        .attr("fill", "#FFFFF");
-    
-    //x axis
-    svg.append("g")
+
+    let dataMax = d3.max(dataset, function(d) {
+      return d[1];
+    });
+    dataset.forEach(function (d, i) {
+        setTimeout(function () {
+            color = `(${Math.round(255 - (d[1] / dataMax)*255)}, ${Math.round((d[1] / dataMax)*255)}, 0)`
+            console.log(color)
+            svg
+              .append("circle")
+              .datum(d)
+              .attr("cx", xScale(d[0]))
+              .attr("cy", yScale(d[1]))
+              .attr("r", 2)
+              .style("fill", `rgb${color}`)
+              .enter();
+        }, 50 * i);
+    });
+        svg.append("g")
         .attr("class", "x axis")
         .attr("transform", "translate(0," + (height - padding) + ")")
         .call(xAxis);
 
-    //y axis
     svg.append("g")
         .attr("class", "y axis")
         .attr("transform", "translate(" + padding + ", 0)")
         .call(yAxis);
-    
-
-
-    svg.append("text")
-        .attr("x", width / 2 - 100)
-        .attr("y", height + 50)
-        .attr("font-size", "20px")
-        .text("Year");
-
-    // Y Label
-    svg.append("text")
-        .attr("transform", "rotate(-90)")
-        .attr("y", -55)
-        .attr("x", -250)
-        .attr("font-size", "20px")
-        .style("text-anchor", "middle")
-        .text("Average Income per person living in San Mateo");
+    svg
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 12)
+      .attr("x", -250)
+      .attr("opacity", "0.5")
+      .attr("font-size", "18px")
+      .style("text-anchor", "middle")
+      .text("Index Feb 5th, 1971=100");
 
     svg.append("text")
         .attr("y", height)
         .attr("x", width - 300)
-        .attr("font-size", "40px")
+        .attr("font-size", "32px")
         .attr("opacity", "0.5")
         .style("text-anchor", "middle")
         .text("Year")

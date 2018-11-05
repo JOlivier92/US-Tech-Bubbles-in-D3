@@ -546,37 +546,5 @@ const sf_tech_pulse = [
   {
     "DATE": "2003-02-01",
     "SFTPINDM114SFRBSF": 62.39459
-  },
-  {
-    "DATE": "2003-03-01",
-    "SFTPINDM114SFRBSF": 62.88616
-  },
-  {
-    "DATE": "2003-04-01",
-    "SFTPINDM114SFRBSF": 63.45433
-  },
-  {
-    "DATE": "2003-05-01",
-    "SFTPINDM114SFRBSF": 64.21997
-  },
-  {
-    "DATE": "2003-06-01",
-    "SFTPINDM114SFRBSF": 65.21078
-  },
-  {
-    "DATE": "2003-07-01",
-    "SFTPINDM114SFRBSF": 66.33039
-  },
-  {
-    "DATE": "2003-08-01",
-    "SFTPINDM114SFRBSF": 67.53472
-  },
-  {
-    "DATE": "2003-09-01",
-    "SFTPINDM114SFRBSF": 68.82585
-  },
-  {
-    "DATE": "2003-10-01",
-    "SFTPINDM114SFRBSF": 69.9858
   }
 ]

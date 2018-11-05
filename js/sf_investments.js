@@ -12,14 +12,11 @@ const SFInvestments = () => {
 
     //scale function
     let xScale = d3.scaleLinear()
-        //.domain(["Alabama","Alaska","Arizona","Arkansas","California"])
         .domain([1995, 2005])
-        //.range([padding, w-padding * 2]);
         .range([padding, width - padding * 2]);
 
     let yScale = d3.scaleLinear()
-        .domain([10, d3.max(dataset, function (d) { return d[1]; })])
-        //.range([padding, w-padding * 2]);
+        .domain([13, d3.max(dataset, function (d) { return d[1]; })])
         .range([height - padding, padding]);
 
 
@@ -33,23 +30,32 @@ const SFInvestments = () => {
 
 
     //create svg element
+    
     let svg = d3.select("#investment-area")
         .append("svg")
         .attr("width", width)
         .attr("height", height);
 
-    svg.selectAll("circle")
-        .data(dataset)
-        .enter()
-        .append("circle")
-        .attr("cx", function (d) {
-            return xScale(d[0]);
-        })
-        .attr("cy", function (d) {
-            return yScale(d[1]);
-        })
-        .attr("r", 2)
-        .attr("fill", "#FFFFF");
+    let dataMax = d3.max(dataset, function (d) {
+        return d[1];
+    });
+    let dataMin = d3.min(dataset, function (d) {
+        return d[1];
+    })
+    dataset.forEach(function (d,i) {
+        setTimeout(function () {
+            color = `(${Math.round((dataMin / d[1]) * 255)}, ${Math.round((d[1] / dataMax) * 255)}, 0)`
+            svg
+              .append("circle")
+              .datum(d)
+              .attr("cx", xScale(d[0]))
+              .attr("cy", yScale(d[1]))
+              .attr("r", 2)
+              .style("fill", `rgb${color}`)
+              .enter();
+        }, 100*i);
+    });
+
 
     //x axis
     svg.append("g")
@@ -63,36 +69,23 @@ const SFInvestments = () => {
         .attr("transform", "translate(" + padding + ", 0)")
         .call(yAxis);
 
-
-
-    svg.append("text")
-        .attr("x", width / 2 - 100)
-        .attr("y", height + 50)
-        .attr("font-size", "20px")
-        .text("Year");
-
     // Y Label
-    svg.append("text")
-        .attr("transform", "rotate(-90)")
-        .attr("y", -55)
-        .attr("x", -250)
-        .attr("font-size", "20px")
-        .style("text-anchor", "middle")
-        .text("Average Income per person living in San Mateo");
+    svg
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 15)
+      .attr("x", -250)
+      .attr("opacity", "0.5")
+      .attr("font-size", "20px")
+      .style("text-anchor", "middle")
+      .text("Number of Investments (1000s)");
 
     svg.append("text")
         .attr("y", height)
         .attr("x", width - 300)
-        .attr("font-size", "40px")
+        .attr("font-size", "32px")
         .attr("opacity", "0.5")
         .style("text-anchor", "middle")
         .text("Year")
-
-    console.log(dataset);
-
-    const area = d3.area()
-        .x(function (dataset) { return x(dataset.DATE); })
-        .y0(height)
-        .y1(function (dataset) { return y(dataset.SMU06418845552300001); });
 };
 SFInvestments();
