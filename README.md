@@ -21,17 +21,6 @@ The graphs that will be rendered will utilize API calls. There will be points to
 ### Technologies
 * The D3 javascript library will be used to render JSON files
 * CSS and HTML will be used to visualize the data generated directly from API calls.
-
-
-### MVPs
-#### Days 1-3
-* Make a graph using D3 that shows the market capitalization of tech companies over the past 20 years
-#### Day 4
-* Make graphs for the rest of the models
-#### Day 5
-* Make all overlay graphs
-#### Day 6-7
-* Style the page, and write background information
 ---
 
 ![Alt text](wireFrame.png "Wireframe")
