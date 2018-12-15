@@ -22,5 +22,3 @@ The graphs that will be rendered will utilize API calls. There will be points to
 * The D3 javascript library will be used to render JSON files
 * CSS and HTML will be used to visualize the data generated directly from API calls.
 ---
-
-![Alt text](wireFrame.png "Wireframe")
