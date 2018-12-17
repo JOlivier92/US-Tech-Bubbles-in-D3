@@ -3,7 +3,7 @@
 #### [Live Site](https://techbubbled3.herokuapp.com/)
 ---
 ### Background and Overview
-The purpose of this project will be to visualize how common living conditions were and are associated with tech bubbles in the US. I will correlate a few different things: 
+The purpose of this project is to visualize how common living conditions were and are associated with tech bubbles in the US. I have correlated a few different things: 
 * House prices in Silicon Valley over time.
 * Software Engineering Salaries in Silicon Valley over time.
 * Market capitalization of Tech companies in the US over time.
